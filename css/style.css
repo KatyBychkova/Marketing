@@ -83,7 +83,7 @@ a {
 }
 
 .header-content {
-	background-image: url(../images/header-bg.jpg);
+	background-image: url(../images/header/header-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -238,4 +238,24 @@ a {
 
 .expertise__item-text {
 	color: #777777;
+}
+
+.magic {
+	background-color: #F6F8FA;
+	background-image: url(../images/magic/magic-bg.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+.magic__inner {
+	max-width: 470px;
+	margin-left: auto;
+	padding: 100px 0 190px;
+}
+
+.magic__title {
+	margin-bottom: 67px;
+}
+
+.magic__text p {
+	margin-bottom: 25px;
 }
