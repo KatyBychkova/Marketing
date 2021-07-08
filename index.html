@@ -17,7 +17,7 @@
 
 <body>
   <header class="header">
-    <div class="header-top">
+    <div class="header__top">
       <div class="container">
         <div class="header__top-inner">
           <a class="logo" href="#">
@@ -60,9 +60,9 @@
         </div>
       </div>
     </div>
-    <div class="header-content">
+    <div class="header__content">
       <div class="container">
-        <div class="header-content__inner">
+        <div class="header__content__inner">
           <h1 class="header__title">
             O...MARKETING
           </h1>
@@ -170,9 +170,86 @@
       </div>
     </div>
   </section>
+  <section class="portfolio">
+    <div class="container">
+      <div class="portfolio__top">
+        <div class="title portfolio__title">
+          Portfolio
+        </div>
+        <div class="portfolio__filter-btn">
+          <button class="portfolio__btn"  data-filter="all">ALL </button>
+          <button class="portfolio__btn" data-filter=".category-a"> BRANDING </button>
+          <button class="portfolio__btn"  data-filter=".category-b">DESIGN</button>
+          <button class="portfolio__btn" data-filter=".category-c">PHOTOGRAPHY</button>
+          <button class="portfolio__btn"  data-filter=".category-d">ILLUSTRATION</button>
+        </div>
+      </div>
+    </div>
+      <div class="portfolio__content">
+        <div class="portfolio__item mix category-a">
+          <img src="images/portfolio/1.jpg" alt="проект портфолио 1">
+        </div>
+        <div class="portfolio__item mix category-b">
+          <img src="images/portfolio/2.jpg" alt="проект портфолио 2">
+        </div>
+        <div class="portfolio__item mix category-c">
+          <img src="images/portfolio/3.jpg" alt="проект портфолио 3">
+        </div>
+        <div class="portfolio__item mix category-a">
+          <img src="images/portfolio/4.jpg" alt="проект портфолио 4">
+        </div>
+        <div class="portfolio__item mix category-b">
+          <img src="images/portfolio/5.jpg" alt="проект портфолио 5">
+        </div>
+        <div class="portfolio__item mix category-d">
+          <img src="images/portfolio/6.jpg" alt="проект портфолио 6">
+        </div>
+        <div class="portfolio__item mix category-a">
+          <img src="images/portfolio/7.jpg" alt="проект портфолио 7">
+        </div>
+        <div class="portfolio__item mix category-b">
+          <img src="images/portfolio/8.jpg" alt="проект портфолио 8">
+        </div>
+        <div class="portfolio__item mix category-c">
+          <img src="images/portfolio/9.jpg" alt="проект портфолио 9">
+        </div>
+      </div>
+    <a class="portfolio__add" href="#">
+      VIEW MORE PROJECTS
+    </a>
+    <blockquote class="blockquote">
+      «Неважно какую историю вы рассказываете, главное – сделайте своего покупателя героем»
+      <span class="blockquote__autor">Крис Броган</span>
+    </blockquote>
+    <div class="portfolio__video">
+      <a class="portfolio__video-link" href="#">
+        <img src="images/portfolio/play.svg" alt="иконка видео">
+      </a>
+    </div>
+    <div class="portfolio__numbers">
+      <h5 class="portfolio__numbers-item">
+        305
+        <span>Web Designs</span>
+      </h5>
+      <h5 class="portfolio__numbers-item">
+        220
+        <span>Logo Designs</span>
+      </h5>
+      <h5 class="portfolio__numbers-item">
+        52
+        <span>Print Designs</span>
+      </h5>
+      <h5 class="portfolio__numbers-item">
+        88
+        <span>Mobile Apps</span>
+      </h5>
+
+    </div>
+  </section>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
