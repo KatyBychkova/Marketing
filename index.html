@@ -12,6 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -177,52 +178,52 @@
           Portfolio
         </div>
         <div class="portfolio__filter-btn">
-          <button class="portfolio__btn"  data-filter="all">ALL </button>
+          <button class="portfolio__btn" data-filter="all">ALL </button>
           <button class="portfolio__btn" data-filter=".category-a"> BRANDING </button>
-          <button class="portfolio__btn"  data-filter=".category-b">DESIGN</button>
+          <button class="portfolio__btn" data-filter=".category-b">DESIGN</button>
           <button class="portfolio__btn" data-filter=".category-c">PHOTOGRAPHY</button>
-          <button class="portfolio__btn"  data-filter=".category-d">ILLUSTRATION</button>
+          <button class="portfolio__btn" data-filter=".category-d">ILLUSTRATION</button>
         </div>
       </div>
     </div>
-      <div class="portfolio__content">
-        <div class="portfolio__item mix category-a">
-          <img src="images/portfolio/1.jpg" alt="проект портфолио 1">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-b">
-          <img src="images/portfolio/2.jpg" alt="проект портфолио 2">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-c">
-          <img src="images/portfolio/3.jpg" alt="проект портфолио 3">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-a">
-          <img src="images/portfolio/4.jpg" alt="проект портфолио 4">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-b">
-          <img src="images/portfolio/5.jpg" alt="проект портфолио 5">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-d">
-          <img src="images/portfolio/6.jpg" alt="проект портфолио 6">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-a">
-          <img src="images/portfolio/7.jpg" alt="проект портфолио 7">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-b">
-          <img src="images/portfolio/8.jpg" alt="проект портфолио 8">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
-        <div class="portfolio__item mix category-c">
-          <img src="images/portfolio/9.jpg" alt="проект портфолио 9">
-          <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
-        </div>
+    <div class="portfolio__content">
+      <div class="portfolio__item mix category-a">
+        <img src="images/portfolio/1.jpg" alt="проект портфолио 1">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
       </div>
+      <div class="portfolio__item mix category-b">
+        <img src="images/portfolio/2.jpg" alt="проект портфолио 2">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-c">
+        <img src="images/portfolio/3.jpg" alt="проект портфолио 3">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-a">
+        <img src="images/portfolio/4.jpg" alt="проект портфолио 4">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-b">
+        <img src="images/portfolio/5.jpg" alt="проект портфолио 5">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-d">
+        <img src="images/portfolio/6.jpg" alt="проект портфолио 6">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-a">
+        <img src="images/portfolio/7.jpg" alt="проект портфолио 7">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-b">
+        <img src="images/portfolio/8.jpg" alt="проект портфолио 8">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-c">
+        <img src="images/portfolio/9.jpg" alt="проект портфолио 9">
+        <a class="portfolio__item-link" href="#">SHOW PROJECT</a>
+      </div>
+    </div>
     <a class="portfolio__add" href="#">
       VIEW MORE PROJECTS
     </a>
@@ -231,7 +232,7 @@
       <span class="blockquote__autor">Крис Броган</span>
     </blockquote>
     <div class="portfolio__video">
-      <a class="portfolio__video-link" href="#">
+      <a class="portfolio__video-link" data-fancybox="video-gallery" data-src="https://youtu.be/mdU6V76zTSc">
         <img src="images/portfolio/play.svg" alt="иконка видео">
       </a>
     </div>
@@ -259,6 +260,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/mixitup.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
