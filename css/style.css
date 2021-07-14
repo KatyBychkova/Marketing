@@ -493,3 +493,95 @@ a {
 .slick-next {
 	right: -95px;
 }
+
+.team {
+	padding: 120px 0 130px;
+}
+
+.team__title {
+	margin-bottom: 100px;
+}
+
+.team__items {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+
+}
+
+.team__item {}
+
+.team__name {
+	padding: 35px 0 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+	color: #333333;
+}
+
+.team__position {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+
+.pricing {
+	padding: 145px 0 160px;
+	background-color: #F6F8FA;
+}
+
+.pricing__title {
+	margin-bottom: 90px;
+}
+
+.pricing__items {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+ul.pricing__item {
+	background-color: #fff;
+	text-align: center;
+	padding: 24px 25px 53px;
+	width: 370px;
+}
+
+.pricing__item li {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 22px;
+	color: #242121;
+	margin-bottom: 30px;
+}
+
+
+.pricing__item .pricing__item-name {
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 8px;
+}
+
+.pricing__item .pricing__item-num {
+	font-size: 80px;
+	line-height: 109px;
+	margin-bottom: 50px;
+}
+
+.pricing__item-num sup {
+	font-size: 40px;
+	line-height: 54px;
+}
+
+.pricing__item-link {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #242121;
+	margin-top: 70px;
+}
