@@ -50,11 +50,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 29px;
+    padding-bottom: 20px;
 }
 
 .header--menu {
-    padding-top: 25px;
+    padding-top: 19px;
 }
 
 .menu__btn {
@@ -711,16 +711,53 @@ ul.footer__social {
 
 
 
+@media (max-width: 1200px) {
+    .about,
+    expertise {
+        padding: 75px 0;
+    }
 
+    .about__inner {
+        display: block;
+    }
 
+    .about__title,
+    .expertise__title {
+        margin-bottom: 50px;
+    }
+
+    .about__text p {
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 65px;
+    }
+}
+
+@media (max-width: 992px) {
+    .expertise__inner {
+        display: block;
+        margin-bottom: 75px;
+    }
+
+    .expertise__info {
+        width: 100%;
+        margin-right: 0;
+    }
+    .expertise__items {
+        display: block;
+    }
+    .expertise__item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
 
 @media (max-width: 768px) {
-    
-
-    .header__top-inner path 
-    .header__top-inner rect {
+    .header__top-inner path .header__top-inner rect {
         transition: all 0.5s;
-
     }
 
     .header__top-inner.header__top-inner--active .menu__list {
@@ -779,8 +816,6 @@ ul.footer__social {
         padding: 0;
     }
 
-
-
     .header__title {
         font-size: 50px;
         line-height: 65px;
@@ -790,6 +825,11 @@ ul.footer__social {
     .header__subtitle {
         font-size: 14px;
         line-height: 16px;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 60px;
     }
 
 }
@@ -803,6 +843,12 @@ ul.footer__social {
     .header__subtitle {
         font-size: 12px;
         line-height: 14px;
+    }
+
+    .about__title,
+    .title {
+        font-size: 28px;
+        line-height: 42px;
     }
 
 }
