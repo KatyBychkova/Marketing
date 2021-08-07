@@ -57,6 +57,10 @@ a {
     padding-top: 25px;
 }
 
+.menu__btn {
+    display: none;
+}
+
 .menu__list {
     display: flex;
 }
@@ -684,23 +688,121 @@ ul.footer__social {
 }
 
 .footer__contact a {
-display: block;
-margin: 10px 0;
-color: #FFF;
+    display: block;
+    margin: 10px 0;
+    color: #FFF;
 }
 
 
 .go-top {
-   display: inline-block;
+    display: inline-block;
 }
 
 .footer__copy {
     background-color: #2A2C2B;
     padding: 40px 10px;
-text-align: center;
-font-family: Open Sans;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-color: #CCC;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CCC;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    
+
+    .header__top-inner path 
+    .header__top-inner rect {
+        transition: all 0.5s;
+
+    }
+
+    .header__top-inner.header__top-inner--active .menu__list {
+        transform: translateY(0%);
+    }
+
+    .header__top-inner.header__top-inner--active path {
+        fill: white;
+    }
+
+    .header__top-inner.header__top-inner--active .menu__btn rect {
+        fill: white;
+    }
+
+    .menu__list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        display: block;
+        text-align: center;
+        background: rgb(6, 3, 6);
+        background: -moz-linear-gradient(180deg, rgba(6, 3, 6, 1) 0%, rgba(64, 29, 62, 1) 35%);
+        background: -webkit-linear-gradient(180deg, rgba(6, 3, 6, 1) 0%, rgba(64, 29, 62, 1) 35%);
+        background: linear-gradient(180deg, rgba(6, 3, 6, 1) 0%, rgba(64, 29, 62, 1) 35%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#060306", endColorstr="#401d3e", GradientType=1);
+        transform: translateY(-200%);
+        transition: all .5s;
+    }
+
+    .menu__list-link {
+        display: block;
+        padding: 15px 0;
+        color: #fff;
+    }
+
+    ul.menu__list {
+        padding: 90px 0 15px;
+    }
+
+    .menu__list-item+.menu__list-item {
+        margin-left: 0px;
+    }
+
+    .logo {
+        position: relative;
+        z-index: 2;
+    }
+
+    .menu__btn {
+        display: block;
+        position: relative;
+        z-index: 2;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+
+
+
+    .header__title {
+        font-size: 50px;
+        line-height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .header__title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .header__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
 }
