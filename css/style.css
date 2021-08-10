@@ -709,11 +709,21 @@ ul.footer__social {
     color: #CCC;
 }
 
+@media (max-width: 1400px) {
+    .magic__inner {
+        padding: 50px 0;
+        
+    }
 
+    .magic {
+        background-position: left bottom;
+    }
+}
 
 @media (max-width: 1200px) {
+
     .about,
-    expertise {
+    .expertise {
         padding: 75px 0;
     }
 
@@ -722,7 +732,8 @@ ul.footer__social {
     }
 
     .about__title,
-    .expertise__title {
+    .expertise__title,
+    .magic__title {
         margin-bottom: 50px;
     }
 
@@ -746,12 +757,23 @@ ul.footer__social {
         width: 100%;
         margin-right: 0;
     }
+
     .expertise__items {
         display: block;
     }
+
     .expertise__item {
         width: 100%;
         margin-bottom: 40px;
+    }
+
+    .magic {
+        background-image: none;
+    }
+
+    .magic__inner {
+        max-width: 100%;
+        margin-left: 0;
     }
 }
 
@@ -835,6 +857,12 @@ ul.footer__social {
 }
 
 @media (max-width: 440px) {
+
+    .about,
+    .expertise {
+        padding: 50px 0;
+    }
+
     .header__title {
         font-size: 36px;
         line-height: 44px;
@@ -851,4 +879,11 @@ ul.footer__social {
         line-height: 42px;
     }
 
+}
+
+@media (max-width: 340px) {
+    .expertise__item {
+        padding-left: 0;
+        padding-top: 60px;
+    }
 }
