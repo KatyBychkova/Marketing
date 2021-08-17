@@ -251,6 +251,7 @@ a {
     background-image: url(../images/magic/magic-bg.jpg);
     background-size: 50%;
     background-repeat: no-repeat;
+    background-position: left bottom 25%;
 }
 
 .magic__inner {
@@ -279,7 +280,7 @@ a {
 }
 
 .portfolio__filter-btn {
-    margin-right: 60px;
+    margin-right: 65px;
 }
 
 .portfolio__btn {
@@ -300,7 +301,7 @@ a {
 }
 
 .portfolio__btn+.portfolio__btn {
-    margin-left: 17px;
+    margin-left: 25px;
 }
 
 .portfolio__content {
@@ -709,10 +710,18 @@ ul.footer__social {
     color: #CCC;
 }
 
+@media (min-width: 1445px) {
+
+    .magic {
+        background-position: left top 80%;
+    }
+}
+
+
 @media (max-width: 1400px) {
     .magic__inner {
         padding: 50px 0;
-        
+
     }
 
     .magic {
@@ -723,7 +732,8 @@ ul.footer__social {
 @media (max-width: 1200px) {
 
     .about,
-    .expertise {
+    .expertise,
+    .portfolio {
         padding: 75px 0;
     }
 
@@ -733,7 +743,8 @@ ul.footer__social {
 
     .about__title,
     .expertise__title,
-    .magic__title {
+    .magic__title,
+     {
         margin-bottom: 50px;
     }
 
@@ -745,6 +756,15 @@ ul.footer__social {
         font-size: 48px;
         line-height: 65px;
     }
+
+    .portfolio__filter-btn {
+        margin-right: 0;
+    }
+
+    .portfolio__top {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -774,6 +794,19 @@ ul.footer__social {
     .magic__inner {
         max-width: 100%;
         margin-left: 0;
+    }
+
+    .portfolio__content {
+        column-count: 3;
+        margin-bottom: 40px;
+    }
+
+    .portfolio__top {
+        display: block;
+    }
+
+    .portfolio__filter-btn {
+        margin-top: 40px;
     }
 }
 
@@ -854,6 +887,37 @@ ul.footer__social {
         line-height: 60px;
     }
 
+    .portfolio__content {
+        column-count: 2;
+    }
+
+    .portfolio__btn {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .portfolio__btn  +   .portfolio__btn {
+        margin-left: 0;
+    }
+    .portfolio__add{
+        margin-bottom: 40px;
+    }
+    .blockquote {
+        margin-bottom: 40px;
+        padding: 0 10px;
+    }
+    .portfolio__video {
+        margin-bottom: 75px;
+    }
+
+    .portfolio__numbers {
+        flex-wrap: wrap;
+    }
+
+    .portfolio__numbers-item {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
 }
 
 @media (max-width: 440px) {
@@ -879,6 +943,9 @@ ul.footer__social {
         line-height: 42px;
     }
 
+    .portfolio__numbers-item {
+        width: 100%;
+            }
 }
 
 @media (max-width: 340px) {
@@ -886,4 +953,5 @@ ul.footer__social {
         padding-left: 0;
         padding-top: 60px;
     }
+
 }
