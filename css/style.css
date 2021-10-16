@@ -87,11 +87,22 @@ a {
     border-bottom: 1px solid #FCBB08;
 }
 
+.header__top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+
+}
+
 .header__content {
     background-image: url(../images/header/header-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    padding-top: 100px;
 }
 
 .header__content__inner {
@@ -753,6 +764,10 @@ ul.footer__social {
     .pricing,
     .connection {
         padding: 75px 0;
+    }
+
+    .header__top-inner {
+        padding-bottom: 5px;
     }
 
     .about__inner {
