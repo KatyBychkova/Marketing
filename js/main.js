@@ -1,6 +1,6 @@
 $(function(){
 
-  $(".menu a, .go-top").on("click", function (event) {
+  $(".menu a, .header__content__inner a, .go-top").on("click", function (event) {
 		//отменяем стандартную обработку нажатия по ссылке
 		event.preventDefault();
 
