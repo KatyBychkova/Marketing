@@ -6,3 +6,5 @@
 - фильтрация с помощью mixitUp-multifilter;
 - плавный скролл, "липкий" header;
 - сайт адаптирован под разные устройства и браузеры;
+
+[Увидеть работу](http://katybychkova.github.io/Marketing/)
